@@ -1,0 +1,112 @@
+*{border: 0; margin: 0; padding: 0}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;}
+
+header {
+    background-color: #bcde58;
+    text-transform: uppercase;
+    padding: .15in;
+    margin: .15in;}
+
+h1 {
+    font-size: 36 pt;
+    padding-top: .15in;
+    padding-left: .15in;
+    padding-bottom: .0in;}
+
+h2 {
+    font-size: 24 pt;
+    padding: .25in;
+    color: "white";
+}
+
+h3{
+    font-size: 16 pt;
+    padding-left: .15in;
+    padding-bottom: .25in;}
+
+/*TOP NAV*/
+.topnav {
+    width: 100%; 
+    height: 30px;}
+
+.topnav > li {
+    list-style: none; 
+    float: left;
+    width: 13%;
+    text-align: center;}
+
+.topnav > li> a {
+    text-decoration: none; 
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;}
+
+#leftstuff {
+    width: 20%;
+    position: relative;
+    clear: left;
+    float: left;}
+
+/*SIDE NAV*/
+#sidenav {
+    background: #66CCCC; 
+    height: 3in;
+/*    width: 2in;*/
+    margin: .15in;}
+
+#sidenav ul {
+    padding: 20%; }
+
+#sidenav li {
+    list-style: none; 
+    padding-bottom: 12px;}
+
+#sidenav a {
+    color: #ffffff; 
+    text-decoration: none;
+    text-transform: uppercase;}
+
+#colordiv {
+    background: #6699FF; 
+    height: 1.5in; 
+    margin: .15in;}  
+#main{
+    position: relative;
+    float: left;
+    margin: .15in;
+    width: 75%;}
+
+#headline{
+    color: white;
+    background: #d1ac19;}
+
+p.main {
+    position: relative;
+    float: left;
+    margin: .15in;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+footer {
+    background: #C2C2A3;
+    position: relative;
+    float: left;
+    height: .25in;
+    margin: .15in;
+    width: 75%;}
+
+footer > i {
+    float: right;
+    padding-top: .05in;
+    padding-right: .15in;
+}
+
