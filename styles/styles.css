@@ -10,16 +10,16 @@ header {
     margin: .15in;}
 
 h1 {
-    font-size: 36 pt;
+    font-size: 48 pt;
+    font-weight: 900;
     padding-top: .15in;
     padding-left: .15in;
     padding-bottom: .0in;}
 
 h2 {
-    font-size: 24 pt;
+    font-size: 36pt;
     padding: .25in;
-    color: "white";
-}
+    color: "white";}
 
 h3{
     font-size: 16 pt;
@@ -85,16 +85,14 @@ h3{
 p.main {
     position: relative;
     float: left;
-    margin: .15in;
-}
+    margin: .15in;}
 
 .clearfix:after { 
    content: "."; 
    visibility: hidden; 
    display: block; 
    height: 0; 
-   clear: both;
-}
+   clear: both;}
 
 footer {
     background: #C2C2A3;
@@ -107,6 +105,5 @@ footer {
 footer > i {
     float: right;
     padding-top: .05in;
-    padding-right: .15in;
-}
+    padding-right: .15in;}
 
